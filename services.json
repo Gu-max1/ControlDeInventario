@@ -1,0 +1,52 @@
+{
+    "backend": {
+        "cmd": [
+            "cmd",
+            "/c",
+            "run_backend.bat"
+        ],
+        "cwd": ".",
+        "autostart": true,
+        "description": "FastAPI Backend Server"
+    },
+    "frontend": {
+        "cmd": [
+            "cmd",
+            "/c",
+            "run_frontend.bat"
+        ],
+        "cwd": ".",
+        "autostart": true,
+        "description": "Vite Frontend Development Server"
+    },
+    "notificaciones": {
+        "cmd": [
+            "cmd",
+            "/c",
+            "run_notificaciones.bat"
+        ],
+        "cwd": ".",
+        "autostart": true,
+        "description": "Email Notification Monitor Service"
+    },
+    "probar_email": {
+        "cmd": [
+            "cmd",
+            "/c",
+            "run_probar_email.bat"
+        ],
+        "cwd": ".",
+        "autostart": false,
+        "description": "Email Testing Utility"
+    },
+    "configurar_email": {
+        "cmd": [
+            "cmd",
+            "/c",
+            "run_configurar_email.bat"
+        ],
+        "cwd": ".",
+        "autostart": false,
+        "description": "Email Configuration Wizard"
+    }
+}

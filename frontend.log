@@ -1,0 +1,6 @@
+
+> inventory-control-client@2.0.0 dev
+> vite
+
+[31merror when starting dev server:
+Error: EPERM: operation not permitted, rmdir 'C:\Users\ga.castillo\OneDrive - Motta Internacional, S.A\Escritorio\CONTROL DE INVENTRIO\client\node_modules\.vite\deps'[39m
